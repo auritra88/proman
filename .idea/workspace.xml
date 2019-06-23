@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4c8225e-745f-46f8-9dbb-64cfc24f85ef" name="Default Changelist" comment="" />
+    <list default="true" id="b4c8225e-745f-46f8-9dbb-64cfc24f85ef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proman-api/src/main/java/com/uprad/proman/api/controller/SignUpController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proman-api/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-db/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/proman-db/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-db/src/main/resources/config/localhost.properties" beforeDir="false" afterPath="$PROJECT_DIR$/proman-db/src/main/resources/config/localhost.properties" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/proman-db/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/proman-service/target/" />
@@ -13,65 +21,82 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/proman-db/src/main/resources/config/localhost.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+            <state relative-caret-position="85">
+              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/proman-api/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1054">
-              <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/SignupUserRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1597">
-              <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/SignupUserResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-905">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/UserStatusType.java">
+        <entry file="file://$PROJECT_DIR$/proman-db/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+            <state relative-caret-position="379">
+              <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proman-api/src/main/resources/endpoints/signup.json">
+        <entry file="file://$PROJECT_DIR$/proman-db/src/main/resources/sql/db-seed-data.sql">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/proman-db/src/main/resources/sql/db-setup.sql">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/proman-db/src/main/resources/sql/db-setup-roles.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3158" />
+            <state relative-caret-position="-275" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/proman-db/src/main/resources/sql/db-setup-users.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-578">
+              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+            </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>host</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/UserStatusType.java" />
+        <option value="$PROJECT_DIR$/proman-api/src/main/java/com/uprad/proman/api/controller/SignUpController.java" />
+        <option value="$PROJECT_DIR$/proman-api/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/proman-db/src/main/resources/config/localhost.properties" />
         <option value="$PROJECT_DIR$/proman-api/pom.xml" />
+        <option value="$PROJECT_DIR$/proman-db/pom.xml" />
       </list>
     </option>
   </component>
@@ -88,12 +113,13 @@
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -103,71 +129,24 @@
             </path>
             <path>
               <item name="proman" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proman" type="462c0819:PsiDirectoryNode" />
-              <item name="proman-api" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="proman" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proman" type="462c0819:PsiDirectoryNode" />
-              <item name="proman-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proman" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proman" type="462c0819:PsiDirectoryNode" />
-              <item name="proman-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proman" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proman" type="462c0819:PsiDirectoryNode" />
-              <item name="proman-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proman" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proman" type="462c0819:PsiDirectoryNode" />
-              <item name="proman-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="endpoints" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proman" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proman" type="462c0819:PsiDirectoryNode" />
-              <item name="proman-api" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proman" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proman" type="462c0819:PsiDirectoryNode" />
-              <item name="proman-api" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proman" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proman" type="462c0819:PsiDirectoryNode" />
-              <item name="proman-api" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: ch.qos.logback:logback-classic:1.1.7" type="70bed36:NamedLibraryElementNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561171870764" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561293966927" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -194,18 +173,19 @@
       <option name="presentableId" value="Default" />
       <updated>1561073498902</updated>
       <workItem from="1561073509142" duration="632000" />
-      <workItem from="1561169971139" duration="1934000" />
+      <workItem from="1561169971139" duration="5244000" />
+      <workItem from="1561245093585" duration="13355000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2566000" />
+    <option name="totallyTimeSpent" value="19231000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="20" width="1346" height="688" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2534992" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25738725" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -222,7 +202,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32972974" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.113513514" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
@@ -244,38 +224,12 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/proman-api/src/main/java/com/upgrad/proman/api/PromanApiApplication.java" />
+    <entry file="file://$PROJECT_DIR$/proman-api/src/main/java/com/upgrad/proman/api/config/SwaggerConfiguration.java" />
+    <entry file="file://$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/UserStatusType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proman-api/src/main/java/com/upgrad/proman/api/PromanApiApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proman-api/src/main/java/com/upgrad/proman/api/config/SwaggerConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proman-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1054">
-          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/SignupUserRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1597">
-          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        <state relative-caret-position="119">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -286,15 +240,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proman-api/src/main/resources/endpoints/signup.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3158" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/UserStatusType.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proman-api/src/main/java/com/uprad/proman/api/controller/SignUpController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="162" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="162" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proman-api/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="18" column="65" lean-forward="true" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/SignupUserRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proman-api/src/main/resources/endpoints/signup.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proman-db/src/main/resources/sql/db-seed-data.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proman-db/src/main/resources/sql/db-setup.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proman-db/src/main/resources/sql/db-setup-roles.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-275" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proman-db/src/main/resources/sql/db-setup-users.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-578">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proman-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proman-db/src/main/resources/config/localhost.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proman-db/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
         </state>
       </provider>
     </entry>

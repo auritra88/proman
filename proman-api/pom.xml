@@ -12,11 +12,11 @@
     <artifactId>proman-api</artifactId>
 
     <dependencies>
-       <!-- <dependency>
+        <dependency>
             <groupId>com.upgrad.proman</groupId>
             <artifactId>proman-service</artifactId>
             <version>${project.version}</version>
-        </dependency> -->
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
